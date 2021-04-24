@@ -29,7 +29,7 @@ RUN export DISPLAY=:0.0
 
 COPY supervisord.conf /etc/
 
-EXPOSE 8083
+EXPOSE $PORT
 
 RUN useradd -m user
 WORKDIR /home/user
