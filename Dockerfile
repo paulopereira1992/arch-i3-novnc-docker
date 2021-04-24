@@ -1,4 +1,4 @@
-FROM base/archlinux:latest
+FROM archlinux:latest
 
 LABEL maintainer="fmacrae.dev@gmail.com"
 
