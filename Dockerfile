@@ -36,4 +36,6 @@ EXPOSE $PORT
 RUN useradd -m user
 WORKDIR /home/user
 
+RUN pacman -S --noconfirm     rxvt-unicode
+
 CMD ["/usr/bin/supervisord"]
