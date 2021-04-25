@@ -10,12 +10,10 @@ RUN patched_glibc=glibc-linux4-2.33-4-x86_64.pkg.tar.zst && \
 RUN pacman -Sy --noconfirm archlinux-keyring
 RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm \
-    i3status \
-    i3-wm \
+    xfce4 xfce4-goodies \
     git \
     net-tools \
     python3 \
-    rxvt-unicode \
     supervisor \
     ttf-dejavu \
     x11vnc \
