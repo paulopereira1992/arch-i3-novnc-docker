@@ -36,6 +36,6 @@ EXPOSE $PORT
 RUN useradd -m user
 WORKDIR /home/user
 
-RUN pacman -S --noconfirm     rxvt-unicode
+RUN pacman -S --noconfirm rxvt-unicode mesa
 
 CMD ["/usr/bin/supervisord"]
