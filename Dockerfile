@@ -8,7 +8,7 @@ RUN patched_glibc=glibc-linux4-2.33-4-x86_64.pkg.tar.zst && \
 RUN pacman -Sy --noconfirm archlinux-keyring
 RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm \
-    xfce4 xfce4-goodies \
+    xfce4 xfce4-goodies lxde \
     git \
     net-tools \
     python3 \
