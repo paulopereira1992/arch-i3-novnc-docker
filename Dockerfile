@@ -9,6 +9,7 @@ RUN pacman -Sy --noconfirm archlinux-keyring
 RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm \
     xfce4 xfce4-goodies lxde \
+    base base-devel \
     git \
     net-tools \
     python3 \
